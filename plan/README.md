@@ -5,9 +5,13 @@ Mundo del **ser-desde-las-líneas**, en fase papel-primero. Aquí trabaja un
 el swarm implementa WPs, el orquestador asigna, revisa y es el único que
 marca ✅; el usuario (el custodio) resuelve las decisiones abiertas.
 
-Protocolo derivado del canónico de los mundos hermanos (@ 2026-07-16),
-autocontenido aquí: este plan basta por sí solo, sin historial de chats ni
-lecturas externas.
+El protocolo del swarm es genérico y vive **referenciado versionado** en el
+paquete `@alephscript/skills-scriptorium@0.2.0 › skills/swarm-orquestacion`
+(registry `npm.scriptorium.escrivivir.co`); `plan/roles/` solo conserva la
+calibración local de este mundo. «Autocontenido» aquí significa **autocontenido
+vía referencia versionada** (resoluble por `npm view`, C8): este plan basta por
+sí solo —sin historial de chats— apoyándose en esa referencia, no en una copia
+de los prompts.
 
 ## Mapa de documentos
 
@@ -17,7 +21,7 @@ lecturas externas.
 | [BACKLOG.md](BACKLOG.md) | olas E0–E3 con CA | orquestador (estado); swarm propone |
 | [PRACTICAS.md](PRACTICAS.md) | **lectura obligatoria antes de tocar código** | orquestador |
 | [DECISIONES.md](DECISIONES.md) | tomadas (DE-n) y abiertas (DA-n, las cierra el custodio) | orquestador |
-| [roles/](roles/README.md) | protocolo del swarm (orquestador/worker/revisión/corrección/brief) | orquestador |
+| [roles/](roles/README.md) | referencia versionada al protocolo del swarm + calibración local (submodules, lore-fuera) | orquestador |
 | [REPORTES/](REPORTES/) | un acta por WP, según [REPORTES/PLANTILLA.md](REPORTES/PLANTILLA.md) | swarm |
 
 ## Ciclo de trabajo (resumen; detalle en roles/)
