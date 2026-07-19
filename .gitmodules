@@ -1,0 +1,15 @@
+[submodule "DocumentMachineSDK"]
+	path = DocumentMachineSDK
+	url = https://github.com/escrivivir-co/para-la-voz-sdk.git
+	branch = integration/beta/scriptorium
+[submodule "VectorMachineSDK"]
+	path = VectorMachineSDK
+	url = https://github.com/escrivivir-co/aleph-deep-wiki.git
+	branch = integration/beta/scriptorium
+[submodule "VectorMachineUI"]
+	path = VectorMachineUI
+	url = https://github.com/escrivivir-co/vm-sdk-chromadb-admin.git
+	branch = integration/beta/scriptorium
+[submodule "AgentLoreSDK"]
+	path = AgentLoreSDK
+	url = https://github.com/escrivivir-co/mcp-agent-lore-sdk.git
