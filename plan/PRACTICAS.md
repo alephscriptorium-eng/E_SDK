@@ -2,7 +2,7 @@
 
 Estas prácticas son la **calibración local** de emmanuel-sdk sobre el
 protocolo del swarm, que vive referenciado versionado en
-`@alephscript/skills-scriptorium@0.2.0 › skills/swarm-orquestacion` (registry
+`@alephscript/skills-scriptorium@0.7.0 › skills/swarm-orquestacion` (registry
 `npm.scriptorium.escrivivir.co`, resoluble por `npm view` — C8; ver
 `plan/roles/README.md`). Son autocontenidas vía esa referencia, no vía copia.
 Son la lista de cosas por las que un WP **se devuelve**.

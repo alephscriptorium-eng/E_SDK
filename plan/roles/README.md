@@ -11,7 +11,7 @@ genérico no fija.
 | dato | valor |
 | ---- | ----- |
 | paquete | `@alephscript/skills-scriptorium` |
-| versión | **`0.2.0`** (fijada; nunca `latest`) |
+| versión | **`0.7.0`** (fijada; nunca `latest`) |
 | skill | `skills/swarm-orquestacion` (SKILL.md + `reference/roles/`) |
 | registry | `https://npm.scriptorium.escrivivir.co` |
 
@@ -19,11 +19,11 @@ Consulta / instalación (resoluble por registry, sin copiar los prompts):
 
 ```bash
 # comprobar que la versión fijada existe
-npm view @alephscript/skills-scriptorium@0.2.0 \
+npm view @alephscript/skills-scriptorium@0.7.0 \
   --registry=https://npm.scriptorium.escrivivir.co version
 
 # traer el paquete a un runner
-npm install @alephscript/skills-scriptorium@0.2.0 \
+npm install @alephscript/skills-scriptorium@0.7.0 \
   --registry=https://npm.scriptorium.escrivivir.co
 ```
 
