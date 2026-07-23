@@ -2,11 +2,13 @@
   "name": "emmanuel-sdk",
   "private": true,
   "description": "E_SDK — mundo de papel; consumidor skills-scriptorium",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "skills:sync": "alephscript-skills-sync --runtime claude"
   },
   "devDependencies": {
-    "@alephscript/skills-scriptorium": "0.7.0"
+    "@alephscript/skills-scriptorium": "0.8.0"
   }
 }
